@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-right: 20px;
+}
+
+.navbar img {
+  cursor: pointer;
+  
+}
+
+.navbar_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 0;
+  transition: 300ms;  
+}
+
+.navbar_list_active{
+  height: 260px;
+}
+
+.navbar_list_item {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  list-style: none;
+}

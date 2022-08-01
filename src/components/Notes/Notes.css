@@ -1,0 +1,39 @@
+.notes{
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.notes_text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+}
+
+.notes_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.notes_footer img{
+    cursor: pointer;
+    opacity: 0;
+}
+
+.notes:hover .notes_footer img{
+    opacity: 1;
+
+}
